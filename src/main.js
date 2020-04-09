@@ -1,5 +1,4 @@
-import { sleep } from './time';
-
+import { Iconfont } from './iconfont';
 export {
-	sleep
+	Iconfont
 }

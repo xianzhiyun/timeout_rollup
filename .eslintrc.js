@@ -15,10 +15,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        // "indent": [
-        //   "error",
-        //   4
-        // ],
         "linebreak-style": [
           "error",
           "unix"
@@ -27,9 +23,5 @@ module.exports = {
           "error",
           "single"
         ],
-        // "semi": [
-        //   "error",
-        //   "always"
-        // ]
     }
 };
