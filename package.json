@@ -14,10 +14,11 @@
     "iconfont"
   ],
   "scripts": {
+    "dev:build": "rollup -c -w",
+    "dev:start": "node test/index.js",
+    "dev": "concurrently npm:dev:*",
+    "test": "nodemon test/index.js",
     "build": "cross-env NODE_ENV=production rollup -c",
-    "dev": "rollup -c -w",
-    "demo": "",
-    "test": "node test/test.js",
     "pretest": "npm run build"
   },
   "dependencies": {
@@ -29,8 +30,10 @@
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.3",
+    "concurrently": "^5.1.0",
     "cross-env": "^7.0.2",
     "eslint": "^6.5.1",
+    "nodemon": "^2.0.3",
     "rollup": "^1.20.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.0",
