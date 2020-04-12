@@ -7,7 +7,7 @@
 
 ##### 工具
 * nodemon   当前运行js文件内容改变的时候触发
-* concurrently 脚本同时运行
+* concurrently 脚本同时运行1
 
 ### 前言
 
@@ -375,4 +375,3 @@ const { sleep } = requrie('@alex_xu/time')
 * [用css3实现惊艳面试官的背景即背景动画（高级附源码）](https://juejin.im/post/5d86fc096fb9a06ae94d6d7a)
 * [5分钟教你用nodeJS手写一个mock数据服务器](https://juejin.im/post/5d7345bce51d453b76258503)
 * [教你用200行代码写一个爱豆拼拼乐H5小游戏（附源码）](https://juejin.im/post/5d33d3c26fb9a07ed740b906)
-

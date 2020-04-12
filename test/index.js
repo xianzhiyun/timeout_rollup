@@ -1,5 +1,5 @@
 const path = require('path')
-const {Iconfont} = require('..');
+const {Iconfont} = require('../dist/iconfont.cjs');
 const iconConfig = {
     url: 'https://www.iconfont.cn/api/project/download.zip?spm=a313x.7781069.1998910419.d7543c303&pid=1654297&ctoken=RjZZYphYli6XuLPqvp-ZAd7a',
     toPath: path.join(__dirname, './features'),
